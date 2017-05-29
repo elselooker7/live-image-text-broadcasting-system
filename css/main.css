@@ -1,0 +1,195 @@
+  .sec_message{
+      background-color: #f6f6f6;
+  }
+  .sec_message .nav_me{
+    margin-top: 0;
+    border-top: none;
+    /*border-bottom: solid .01rem #eee;*/
+  }
+  header .sec_message .nav_me{
+  	border-top: solid .01rem #eee;
+  }
+  .sec_message .nav_me td{
+    width: 30%;
+  }
+  .sec_message .nav_me td a{
+    padding: 0;
+    font-size: .14rem;
+    line-height: .35rem;
+    background-color: #fff;
+    /*color: #006a8f;*/
+    color: #666;
+  }
+  .sec_message .nav_me td a.on{
+    /*color: #fff;*/
+    /*background-color: #006a8f;*/
+    background-color: #fff;
+    color: #006a8f;
+  }
+/*侧菜单*/
+  .fix_side{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.93);
+    background-color: #fffe;
+    /*background-color: #0006;*/
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  .fix_side{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    max-width: 6rem;
+  }
+  .fix_side>.body{
+    position: relative;
+    /*overflow-x: hidden;*/
+  }
+  .fix_side>.body>div{
+    position: absolute;
+    top: 0;
+    margin-left: 0;
+  }
+  .fix_side>.body>.result{
+    left: 100%;
+    width: 100%;
+    display: none;
+  }
+  .fix_side>.head{
+    padding-top: .06rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.93);
+    background-color: #fffe;
+    border-bottom: solid .01rem #ddd;
+    height: .44rem;
+    text-align: center;
+  }
+  .fix_side .close{
+    position: absolute;
+    opacity: 1;
+    font-size: .28rem;
+    text-shadow: none;
+    left: .13rem;
+    top: .08rem;
+    color: #006a8f;
+  }
+  .fix_side .wp_search{
+    background-color: #fff;
+    color: #888;
+    border: solid .006rem #dbdbdb;
+    display: inline-block;
+    /*box-shadow: 0 0 0.02rem 0em #0003;*/
+    padding: 0 .05rem;
+    height: .32rem;
+    border-bottom-left-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    margin-left: .3rem;
+  }
+  .fix_side .wp_search i{
+    font-size: .20rem;
+    vertical-align: middle;
+    margin-right: .03rem;
+  }
+  .fix_side .wp_search>div{
+    display: inline-block;
+  }
+  .fix_side .wp_search input{
+    border: none;
+    width: 1.7rem;
+    padding: .05rem;
+    background-color: transparent;
+  }
+  .fix_side .btn_search{
+    display: inline-block;
+    width: .5rem;
+    border-top-right-radius: 0.1rem;
+    border-bottom-right-radius: 0.1rem;
+    height: .32rem;
+    background-color: #006a8f;
+    vertical-align: top;
+    line-height: .30rem;
+    color: #fff;
+    /*box-shadow: 0 0 0.02rem 0em #0003;*/
+    font-weight: bold;
+  }
+  .fix_side .wp_search .cancel{
+    font-size: .12rem;
+    color: #dbdbdb;
+  }
+  .fix_side .cancel{
+    margin-left: .1rem;
+    color: #006a8f;
+    font-size: .13rem;
+  }
+  .fix_side .list_menu{
+    margin-top: .15rem;
+    text-align: left;
+    /*overflow-y: auto;*/
+    overflow-x: hidden;
+    color: #444;
+  }
+  .fix_side .list_menu li{
+    line-height: .4rem;
+    font-size: .16rem;
+    color: #666;
+  }
+  .list_menu>.head,.list_result>.head{
+    font-size: .12rem;
+    color: #888;
+    padding-bottom: .03rem;
+    margin: .05rem .15rem;
+    border-bottom: solid .005rem #dbdbdb;
+  }
+  .list_result>.head{
+    border-bottom: solid .005rem #eee;
+  }
+  .list_menu>.body{
+    display: inline-block;
+    /*color: #888;*/
+    /*margin-bottom: .05rem;*/
+  }
+  .list_menu>.body>div{
+    margin-top: .2rem;
+  }
+  .list_menu>.body>div>a{
+    color: #333;
+  }
+  .list_menu.type>.body>div>a{
+    border: solid .005rem #dbdbdb;
+    padding: .01rem .08rem;
+  }
+  .list_result{
+    background-color: #fff;
+    padding-top: .05rem;
+    border-bottom: solid .005rem #efefef;
+    margin-bottom: .07rem;
+  }
+  .list_result>.body{
+    display: inline-block;
+    width: 100%;
+  }
+  .list_result>.body>a{
+    width: 100%;
+    display: inline-block;
+    color: #666;
+  }
+  .list_result .imgWrap{
+    width: .45rem;
+    height: .45rem;
+  }
+  .list_result .imgWrap>img{
+    width: 100%;
+  }
+  .list_result .r1{
+    width: 100%;
+    font-size: .15rem;
+  }
+  .list_result .r2{
+    width: 100%;
+    color: #888;
+  }
